@@ -6,27 +6,27 @@ const testimonialData: Testimonial[] = [
   {
     id: 1,
     name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    designation: "Founder @SigmaSix",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "The team at Nexellence and Co is incredible! Their personalized tax strategies have saved us money year after year, and their AI solutions are game-changing. The machine learning models they implemented allowed us to predict customer trends, and its been a huge advantage in our industry. They are the future of accounting and tech integration!",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
     name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    designation: "Founder @Jenfa",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "As a growing business, we needed reliable accounting and tax services. Nexellence and Co exceeded our expectations with their comprehensive approach. They not only handled our tax planning and compliance seamlessly but also introduced AI tools that improved our data analysis and reporting. Truly a one-stop solution!",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
     name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    designation: "Founder @Lincun",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Nexellence and Co transformed our business! Their accounting and taxation expertise helped streamline our financial processes, and their AI-driven solutions brought us to the next level. The integration of machine learning into our operations has significantly boosted our efficiency and decision-making. Highly recommend their services!",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -38,7 +38,7 @@ const Testimonials = () => {
       <div className="container">
         <SectionTitle
           title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph=""
           center
         />
 

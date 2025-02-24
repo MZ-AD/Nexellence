@@ -14,10 +14,10 @@ const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Nexellence and Co"
+        description="expert accounting, taxation, and cutting-edge AI solutions to optimize your business financial and technological strategies"
       />
-      <AboutSectionOne />
+      
       <AboutSectionTwo />
     </>
   );
