@@ -57,7 +57,7 @@ const Header = () => {
   } `}
 >
   <div className="flex justify-start w-full">
-    <h1 className="text-3xl font-bold text-black dark:text-white">
+  <img src="/images/logo/nexellence.png" alt="logo" class="logo-header" /><h1 className="text-3xl font-bold text-black dark:text-white">
       Nexellence
     </h1>
   </div>

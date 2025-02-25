@@ -8,24 +8,13 @@ const Footer = () => {
       <footer className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
+            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
-                  <Image
-                    src="/images/logo/logo-2.svg"
-                    alt="logo"
-                    className="w-full dark:hidden"
-                    width={140}
-                    height={30}
-                  />
-                  {/* <Image
-                    src="/images/logo/nex2.png" 
-                    alt="logo" 
-                    className="hidden dark:block" 
-                    width={60} 
-                    height={15} 
-                  /> */}
+                
                 </Link>
+                <img src="/images/logo/nexellence.png" alt="logo" class="logo mbottom" />
+
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
                   Nexellence and Co.
                 </p>
@@ -105,6 +94,21 @@ const Footer = () => {
                     </svg>
                   </a>
                 </div>
+                
+              </div>
+
+              
+              
+            </div>
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-4/12">
+              <div className="mb-12 lg:mb-16">
+                <h2 className="mb-6 text-xl font-bold text-black dark:text-white">Free Consultation</h2>
+               
+                <div className="mb-4">
+                  <p className="text-base text-body-color dark:text-body-color-dark">Email: <a href="mailto:contact@nexellence.com" className="text-primary hover:underline">nexellence@gmail.com</a></p>
+                  <p className="text-base text-body-color dark:text-body-color-dark">Phone: <a href="tel:+1234567890" className="text-primary hover:underline">+1 (234) 567-890</a></p>
+                </div>
+                {/* <Link href="/contact" className="inline-block bg-primary text-white py-2 px-6 rounded-lg hover:bg-primary-dark">Request a Consultation</Link> */}
               </div>
             </div>
 

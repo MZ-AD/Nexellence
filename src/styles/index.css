@@ -31,3 +31,27 @@
     @apply opacity-100;
   }
 }
+
+
+.logo {
+  width: 60px; 
+  height: auto;
+  object-fit: contain; 
+  image-rendering: crisp-edges;
+}
+
+.mbottom{
+  margin-bottom: 10px;
+}
+
+.logo-header {
+  width: 40px; 
+  height: auto;
+  object-fit: contain; 
+  image-rendering: crisp-edges;
+  margin-right: 10px;
+}
+
+.TWNR{
+  text-wrap: nowrap;
+}
