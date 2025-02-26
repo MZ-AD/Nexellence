@@ -2,259 +2,132 @@
 
 import { useTheme } from "next-themes";
 
-const NewsLatterBox = () => {
+const ContactDetailsBox = () => {
   const { theme } = useTheme();
 
   return (
     <div className="relative z-10 rounded-sm bg-white p-8 shadow-three dark:bg-gray-dark sm:p-11 lg:p-8 xl:p-11">
-      <h3 className="mb-4 text-2xl font-bold leading-tight text-black dark:text-white">
-        Subscribe to receive future updates
+     
+      <h3 className="mt-7 mb-6 text-2xl font-bold leading-tight text-black dark:text-white">
+        Contact Us
       </h3>
-      <p className="mb-11 border-b border-body-color border-opacity-25 pb-11 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-25">
-        Lorem ipsum dolor sited Sed ullam corper consectur adipiscing Mae ornare
-        massa quis lectus.
+      <p className="mb-8 text-base leading-relaxed text-body-color dark:text-body-color-dark">
+        Get in touch with us through any of the following methods. We're here to help!
       </p>
-      <div>
-        <input
-          type="text"
-          name="name"
-          placeholder="Enter your name"
-          className="border-stroke mb-4 w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
-        />
-        <input
-          type="email"
-          name="email"
-          placeholder="Enter your email"
-          className="border-stroke mb-4 w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
-        />
-        <input
-          type="submit"
-          value="Subscribe"
-          className="mb-5 flex w-full cursor-pointer items-center justify-center rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
-        />
-        <p className="text-center text-base leading-relaxed text-body-color dark:text-body-color-dark">
-          No spam guaranteed, So please don’t send any spam mail.
+
+
+      <div className="mb-10">
+        <h4 className="text-lg font-semibold text-black dark:text-white">Phone Number</h4>
+        <p className="text-base text-body-color dark:text-body-color-dark">
+          <a href="tel:+923001234567" className="text-primary hover:underline">+1 (234) 567-890</a>
         </p>
       </div>
 
-      <div>
-        <span className="absolute left-2 top-7">
-          <svg
-            width="57"
-            height="65"
-            viewBox="0 0 57 65"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              opacity="0.5"
-              d="M0.407629 15.9573L39.1541 64.0714L56.4489 0.160793L0.407629 15.9573Z"
-              fill="url(#paint0_linear_1028_600)"
-            />
-            <defs>
-              <linearGradient
-                id="paint0_linear_1028_600"
-                x1="-18.3187"
-                y1="55.1044"
-                x2="37.161"
-                y2="15.3509"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
-                  stopOpacity="0.62"
-                />
-                <stop
-                  offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
-                  stopOpacity="0"
-                />
-              </linearGradient>
-            </defs>
-          </svg>
-        </span>
-
-        <span className="absolute bottom-24 left-1.5">
-          <svg
-            width="39"
-            height="32"
-            viewBox="0 0 39 32"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              opacity="0.5"
-              d="M14.7137 31.4215L38.6431 4.24115L6.96581e-07 0.624124L14.7137 31.4215Z"
-              fill="url(#paint0_linear_1028_601)"
-            />
-            <defs>
-              <linearGradient
-                id="paint0_linear_1028_601"
-                x1="39.1948"
-                y1="38.335"
-                x2="10.6982"
-                y2="10.2511"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
-                  stopOpacity="0.62"
-                />
-                <stop
-                  offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
-                  stopOpacity="0"
-                />
-              </linearGradient>
-            </defs>
-          </svg>
-        </span>
-
-        <span className="absolute right-2 top-[140px]">
-          <svg
-            width="38"
-            height="38"
-            viewBox="0 0 38 38"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              opacity="0.5"
-              d="M10.6763 35.3091C23.3976 41.6367 38.1681 31.7045 37.107 17.536C36.1205 4.3628 21.9407 -3.46901 10.2651 2.71063C-2.92254 9.69061 -2.68321 28.664 10.6763 35.3091Z"
-              fill="url(#paint0_linear_1028_602)"
-            />
-            <defs>
-              <linearGradient
-                id="paint0_linear_1028_602"
-                x1="-0.571054"
-                y1="-37.1717"
-                x2="28.7937"
-                y2="26.7564"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
-                  stopOpacity="0.62"
-                />
-                <stop
-                  offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
-                  stopOpacity="0"
-                />
-              </linearGradient>
-            </defs>
-          </svg>
-        </span>
-
-        <span className="absolute right-0 top-0">
-          <svg
-            width="162"
-            height="91"
-            viewBox="0 0 162 91"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g opacity="0.3">
-              <path
-                opacity="0.45"
-                d="M1 89.9999C8 77.3332 27.7 50.7999 50.5 45.9999C79 39.9999 95 41.9999 106 30.4999C117 18.9999 126 -3.50014 149 -3.50014C172 -3.50014 187 4.99986 200.5 -8.50014C214 -22.0001 210.5 -46.0001 244 -37.5001C270.8 -30.7001 307.167 -45 322 -53"
-                stroke="url(#paint0_linear_1028_603)"
-              />
-              <path
-                opacity="0.45"
-                d="M43 64.9999C50 52.3332 69.7 25.7999 92.5 20.9999C121 14.9999 137 16.9999 148 5.49986C159 -6.00014 168 -28.5001 191 -28.5001C214 -28.5001 229 -20.0001 242.5 -33.5001C256 -47.0001 252.5 -71.0001 286 -62.5001C312.8 -55.7001 349.167 -70 364 -78"
-                stroke="url(#paint1_linear_1028_603)"
-              />
-              <path
-                opacity="0.45"
-                d="M4 73.9999C11 61.3332 30.7 34.7999 53.5 29.9999C82 23.9999 98 25.9999 109 14.4999C120 2.99986 129 -19.5001 152 -19.5001C175 -19.5001 190 -11.0001 203.5 -24.5001C217 -38.0001 213.5 -62.0001 247 -53.5001C273.8 -46.7001 310.167 -61 325 -69"
-                stroke="url(#paint2_linear_1028_603)"
-              />
-              <path
-                opacity="0.45"
-                d="M41 40.9999C48 28.3332 67.7 1.79986 90.5 -3.00014C119 -9.00014 135 -7.00014 146 -18.5001C157 -30.0001 166 -52.5001 189 -52.5001C212 -52.5001 227 -44.0001 240.5 -57.5001C254 -71.0001 250.5 -95.0001 284 -86.5001C310.8 -79.7001 347.167 -94 362 -102"
-                stroke="url(#paint3_linear_1028_603)"
-              />
-            </g>
-            <defs>
-              <linearGradient
-                id="paint0_linear_1028_603"
-                x1="291.35"
-                y1="12.1032"
-                x2="179.211"
-                y2="237.617"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop
-                  offset="0.328125"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
-                />
-                <stop
-                  offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
-                  stopOpacity="0"
-                />
-              </linearGradient>
-              <linearGradient
-                id="paint1_linear_1028_603"
-                x1="333.35"
-                y1="-12.8968"
-                x2="221.211"
-                y2="212.617"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop
-                  offset="0.328125"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
-                />
-                <stop
-                  offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
-                  stopOpacity="0"
-                />
-              </linearGradient>
-              <linearGradient
-                id="paint2_linear_1028_603"
-                x1="294.35"
-                y1="-3.89678"
-                x2="182.211"
-                y2="221.617"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop
-                  offset="0.328125"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
-                />
-                <stop
-                  offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
-                  stopOpacity="0"
-                />
-              </linearGradient>
-              <linearGradient
-                id="paint3_linear_1028_603"
-                x1="331.35"
-                y1="-36.8968"
-                x2="219.211"
-                y2="188.617"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop
-                  offset="0.328125"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
-                />
-                <stop
-                  offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
-                  stopOpacity="0"
-                />
-              </linearGradient>
-            </defs>
-          </svg>
-        </span>
+      <div className="mb-10">
+        <h4 className="text-lg font-semibold text-black dark:text-white">Email Address</h4>
+        <p className="text-base text-body-color dark:text-body-color-dark">
+          <a href="mailto:info@example.com" className="text-primary hover:underline">nexellence@gmail.com</a>
+        </p>
       </div>
+
+      <div className="mb-10">
+        <h4 className="text-lg font-semibold text-black dark:text-white">Fax</h4>
+        <p className="text-base text-body-color dark:text-body-color-dark">
+          +92 21 345 6789
+        </p>
+      </div>
+
+      <div className="mb-10">
+        <h4 className="text-lg font-semibold text-black dark:text-white">Office Location</h4>
+        <p className="text-base text-body-color dark:text-body-color-dark">
+          Karachi, Pakistan
+        </p>
+      </div>
+
+
+      <p className="mb-5 text-base font-semibold leading-relaxed text-body-color dark:text-body-color-dark">
+        You can also follow us on:
+      </p>
+      <div className="flex items-center  mb-10">
+        
+                  <a
+                    href="/"
+                    aria-label="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                  >
+                    <svg
+                      width="18"
+                      height="18"
+                      viewBox="0 0 22 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12.1 10.4939V7.42705C12.1 6.23984 13.085 5.27741 14.3 5.27741H16.5V2.05296L13.5135 1.84452C10.9664 1.66676 8.8 3.63781 8.8 6.13287V10.4939H5.5V13.7183H8.8V20.1667H12.1V13.7183H15.4L16.5 10.4939H12.1Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="/"
+                    aria-label="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                  >
+                    <svg
+                      width="18"
+                      height="18"
+                      viewBox="0 0 22 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M13.9831 19.25L9.82094 13.3176L4.61058 19.25H2.40625L8.843 11.9233L2.40625 2.75H8.06572L11.9884 8.34127L16.9034 2.75H19.1077L12.9697 9.73737L19.6425 19.25H13.9831ZM16.4378 17.5775H14.9538L5.56249 4.42252H7.04674L10.808 9.6899L11.4584 10.6039L16.4378 17.5775Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="/"
+                    aria-label="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                  >
+                    <svg
+                      width="18"
+                      height="14"
+                      viewBox="0 0 18 14"
+                      className="fill-current"
+                    >
+                      <path d="M17.5058 2.07119C17.3068 1.2488 16.7099 0.609173 15.9423 0.395963C14.5778 7.26191e-08 9.0627 0 9.0627 0C9.0627 0 3.54766 7.26191e-08 2.18311 0.395963C1.41555 0.609173 0.818561 1.2488 0.619565 2.07119C0.25 3.56366 0.25 6.60953 0.25 6.60953C0.25 6.60953 0.25 9.68585 0.619565 11.1479C0.818561 11.9703 1.41555 12.6099 2.18311 12.8231C3.54766 13.2191 9.0627 13.2191 9.0627 13.2191C9.0627 13.2191 14.5778 13.2191 15.9423 12.8231C16.7099 12.6099 17.3068 11.9703 17.5058 11.1479C17.8754 9.68585 17.8754 6.60953 17.8754 6.60953C17.8754 6.60953 17.8754 3.56366 17.5058 2.07119ZM7.30016 9.44218V3.77687L11.8771 6.60953L7.30016 9.44218Z" />
+                    </svg>
+                  </a>
+                  <a
+                    href="/"
+                    aria-label="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                  >
+                    <svg
+                      width="17"
+                      height="16"
+                      viewBox="0 0 17 16"
+                      className="fill-current"
+                    >
+                      <path d="M15.2196 0H1.99991C1.37516 0 0.875366 0.497491 0.875366 1.11936V14.3029C0.875366 14.8999 1.37516 15.4222 1.99991 15.4222H15.1696C15.7943 15.4222 16.2941 14.9247 16.2941 14.3029V1.09448C16.3441 0.497491 15.8443 0 15.2196 0ZM5.44852 13.1089H3.17444V5.7709H5.44852V13.1089ZM4.29899 4.75104C3.54929 4.75104 2.97452 4.15405 2.97452 3.43269C2.97452 2.71133 3.57428 2.11434 4.29899 2.11434C5.02369 2.11434 5.62345 2.71133 5.62345 3.43269C5.62345 4.15405 5.07367 4.75104 4.29899 4.75104ZM14.07 13.1089H11.796V9.55183C11.796 8.7061 11.771 7.58674 10.5964 7.58674C9.39693 7.58674 9.222 8.53198 9.222 9.47721V13.1089H6.94792V5.7709H9.17202V6.79076H9.19701C9.52188 6.19377 10.2466 5.59678 11.3711 5.59678C13.6952 5.59678 14.12 7.08925 14.12 9.12897V13.1089H14.07Z" />
+                    </svg>
+                  </a>
+                </div>
+
     </div>
   );
 };
 
-export default NewsLatterBox;
+export default ContactDetailsBox;

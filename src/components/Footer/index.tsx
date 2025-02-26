@@ -409,6 +409,7 @@ const Footer = () => {
             </defs>
           </svg>
         </div>
+        
       </footer>
     </>
   );
