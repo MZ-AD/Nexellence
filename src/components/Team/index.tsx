@@ -21,11 +21,11 @@ const MeetTheTeam = () => {
             <div className="text-center">
               <div className="mb-4">
                 <Image
-                   src="/images/about/PHVI.jpg"
+                   src="/images/about/dp.png"
                   alt="Team Member 1"
-                  width={150}
-                  height={150}
-                  className="rounded-full mx-auto"
+                  width={200}
+                  height={200}
+                  className="mx-auto"
                 />
               </div>
               <h3 className="text-black dark:text-white text-xl">Zaheer Abbas</h3>
@@ -39,11 +39,11 @@ const MeetTheTeam = () => {
             <div className="text-center">
               <div className="mb-4">
                 <Image
-                  src="/images/about/PHVI.jpg"
+                  src="/images/about/Nadia(3).jpg"
                   alt="Team Member 2"
-                  width={150}
-                  height={150}
-                  className="rounded-full mx-auto"
+                  width={250}
+                  height={250}
+                  className=" mx-auto"
                 />
               </div>
               <h3 className="text-black dark:text-white text-xl">Nadia Abbas</h3>
@@ -57,11 +57,11 @@ const MeetTheTeam = () => {
             <div className="text-center">
               <div className="mb-4">
                 <Image
-                  src="/images/about/PHVI.jpg"
+                  src="/images/about/Sunaina(1).jpeg"
                   alt="Team Member 3"
-                  width={150}
-                  height={150}
-                  className="rounded-full mx-auto"
+                  width={200}
+                  height={200}
+                  className="mx-auto"
                 />
               </div>
               <h3 className="text-black dark:text-white text-xl">Sunaina</h3>
