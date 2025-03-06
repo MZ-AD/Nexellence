@@ -13,7 +13,7 @@ const Footer = () => {
                 <Link href="/" className="mb-8 inline-block">
                 
                 </Link>
-                <img src="/images/logo/nexellence.png" alt="logo" class="logo mbottom" />
+                <img src="/images/logo/nexellence.png"  alt="logo" className="logo mbottom" />
 
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
                   Nexellence and Co.
