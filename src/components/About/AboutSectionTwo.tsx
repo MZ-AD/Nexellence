@@ -45,7 +45,7 @@ const AboutSectionTwo = () => {
                 </p>
               </div>
               {/* Founder Info Section */}
-              <div className="mt-12">
+              {/* <div className="mt-12">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   Meet Our Founders
                 </h3>
@@ -59,7 +59,7 @@ const AboutSectionTwo = () => {
     <p><strong className="text-black dark:text-white">Co-Founder and CEO:</strong> <strong className="text-black dark:text-white">Sunaina</strong> - In CA program at Chartered Accountants of Pakistan and Associate degree in Finance</p>
   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
