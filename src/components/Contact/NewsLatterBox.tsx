@@ -12,7 +12,7 @@ const ContactDetailsBox = () => {
         Contact Us
       </h3>
       <p className="mb-8 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-        Get in touch with us through any of the following methods. We're here to help!
+        Get in touch with us through any of the following methods. We are here to help!
       </p>
 
 
