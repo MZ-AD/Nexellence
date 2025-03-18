@@ -26,5 +26,12 @@
     "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.3.3"
+  },
+  "eslintConfig": {
+    "extends": ["next", "next/core-web-vitals"],
+    "rules": {
+      "@next/next/no-img-element": "off", 
+      "react/no-unescaped-entities": "off" 
+    }
   }
 }
