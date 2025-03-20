@@ -11,6 +11,15 @@ const Hero = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[900px] text-center">
+              <div className="w-full mb-10 px-4 py-2 flex justify-center">
+  <h2 className="mb-6 text-4xl font text-primary dark:text-white sm:text-5xl md:text-6xl text-center animate-fade-slide-up">
+    Next is Excellence <br /><span className="font-bold">─── Nexcellene ───</span>
+  </h2>
+</div>
+
+
+       
+
                 <h1 className="mb-7 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                 Expert Accounting, Taxation & <br></br>IT Solutions for Your Business Growth
                 </h1>

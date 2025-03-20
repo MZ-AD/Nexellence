@@ -16,22 +16,11 @@ module.exports = {
 
     screens: {
       xs: "450px",
-      // => @media (min-width: 450px) { ... }
-
       sm: "575px",
-      // => @media (min-width: 576px) { ... }
-
       md: "768px",
-      // => @media (min-width: 768px) { ... }
-
       lg: "992px",
-      // => @media (min-width: 992px) { ... }
-
       xl: "1200px",
-      // => @media (min-width: 1200px) { ... }
-
       "2xl": "1400px",
-      // => @media (min-width: 1400px) { ... }
     },
     extend: {
       colors: {
@@ -74,6 +63,19 @@ module.exports = {
       },
       dropShadow: {
         three: "0px 5px 15px rgba(6, 8, 15, 0.05)",
+      },
+
+      // Slogan
+      animation: {
+        'fade-slide-up': 'fadeSlideUp 2s ease-out',
+      },
+
+      keyframes: {
+        fadeSlideUp: {
+          '0%': { opacity: '0', transform: 'translateY(40px) scale(0.95)' },
+          '50%': { opacity: '0.5', transform: 'translateY(10px) scale(1.05)' },
+          '100%': { opacity: '1', transform: 'translateY(0) scale(1)' },
+        },
       },
     },
   },
