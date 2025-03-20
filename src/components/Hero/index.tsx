@@ -13,7 +13,7 @@ const Hero = () => {
               <div className="mx-auto max-w-[900px] text-center">
               <div className="w-full mb-10 px-4 py-2 flex justify-center">
   <h2 className="mb-6 text-4xl font text-primary dark:text-white sm:text-5xl md:text-6xl text-center animate-fade-slide-up">
-    Next is Excellence <br /><span className="font-bold">─ Nexcellene ─</span>
+    Next is Excellence <br /><span className="font-bold">─ Nexellence ─</span>
   </h2>
 </div>
 
