@@ -1,7 +1,7 @@
 "use client";
 
-import '@fortawesome/fontawesome-free/css/all.min.css';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 export default function WhatsAppButton() {
   const redirectToWhatsApp = () => {
@@ -18,7 +18,7 @@ export default function WhatsAppButton() {
         aria-label="Chat with us on WhatsApp"
         className="flex h-14 w-14 cursor-pointer items-center justify-center rounded-full bg-green-500 text-white shadow-lg transition duration-300 ease-in-out hover:bg-green-600 hover:shadow-xl"
       >
-        <i className="fab fa-whatsapp text-xl"></i>
+        <FontAwesomeIcon icon={faWhatsapp} className="text-xl" />
       </div>
     </div>
   );
