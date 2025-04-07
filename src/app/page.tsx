@@ -10,6 +10,8 @@ import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import Team from "@/components/Team";
+import Intro from "@/components/Intro"
+import Whatsapp from "@/components/Whatsapp";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -21,12 +23,15 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
+     
       <ScrollUp />
+      <Whatsapp />
       <Hero />
+      <Intro />
       <Features />
       <Team />
       <Video />
-      {/* <Brands /> */}
+       {/* <Brands />  */}
       {/* <AboutSectionOne />
       <AboutSectionTwo /> */}
       <Testimonials />

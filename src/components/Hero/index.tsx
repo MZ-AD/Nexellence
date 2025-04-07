@@ -1,25 +1,29 @@
 import Link from "next/link";
 
+
+
 const Hero = () => {
   return (
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
-      >
-        <div className="container">
-          <div className="-mx-4 flex flex-wrap">
+        className="relative z-10 overflow-hidden bg-white pb-20 pt-[150px] dark:bg-gray-dark md:pb-[160px] md:pt-[180px] xl:pb-[180px] xl:pt-[200px] 2xl:pb-[220px] 2xl:pt-[220px] min-h-screen"
+        >
+        <div className="container ">
+          <div className="-mx-4 mt-12 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[900px] text-center">
               <div className="w-full mb-10 px-4 py-2 flex justify-center">
-  <h2 className="mb-6 text-4xl font text-primary dark:text-white sm:text-5xl md:text-6xl text-center animate-fade-slide-up">
+  <h2 className="mb-10 mt-12 text-4xl font text-primary dark:text-white sm:text-5xl md:text-6xl text-center animate-fade-slide-up">
     Next is Excellence <br /><span className="font-bold">─ Nexellence ─</span>
   </h2>
 </div>
 
 
-       
 
+
+       
+{/* 
                 <h1 className="mb-7 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                 Expert Accounting, Taxation & <br></br>IT Solutions for Your Business Growth
                 </h1>
@@ -27,22 +31,23 @@ const Hero = () => {
   &quot;At Nexellence and Co, we specialize in providing professional Accounting & Taxation services alongside cutting-edge IT solutions, 
   including AI integrations and Machine Learning. Our dedicated team is committed to helping businesses optimize their financial strategies and leverage the power of technology for future growth.
   Explore our services and discover how we can support your success.&quot;
-</p>
+</p> */}
 
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Link
-                    href="/taxation"
-                    className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
-                  >
-                    Accounting & Taxation Services
-                  </Link>
-                  <Link
-                    href="/it-service"
-                    className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
-                  >
-                    IT Services (AI & Machine Learning)
-                  </Link>
-                </div>
+<div className="flex flex-col items-center justify-center space-y-6 sm:flex-row sm:space-x-10 sm:space-y-0">
+  <Link
+    href="/taxation"
+    className="inline-block rounded-sm bg-primary px-12 py-7 text-lg font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+  >
+    Accounting & Taxation Services
+  </Link>
+  <Link
+    href="/it-service"
+    className="inline-block rounded-sm bg-black px-12 py-7 text-lg font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
+  >
+    IT Services (AI & Machine Learning)
+  </Link>
+</div>
+
               </div>
             </div>
           </div>
