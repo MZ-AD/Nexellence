@@ -12,6 +12,8 @@ import Video from "@/components/Video";
 import Team from "@/components/Team";
 import Intro from "@/components/Intro"
 import Whatsapp from "@/components/Whatsapp";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
