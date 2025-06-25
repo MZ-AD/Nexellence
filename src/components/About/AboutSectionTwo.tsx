@@ -11,12 +11,7 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               
-              <Image
-                src="/images/about/mann.jpg"
-                alt="about image"
-                fill
-                className=""
-              />
+              <img src="/images/about/mann.jpg" alt="about image" style={{objectFit: 'cover', width: '100%', height: '100%'}} />
             </div>
           </div>
           <div className="w-full px-4 lg:w-1/2">

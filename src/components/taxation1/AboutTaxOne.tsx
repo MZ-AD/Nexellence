@@ -1,4 +1,3 @@
-import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
 
 const checkIcon = (
@@ -52,12 +51,7 @@ const TaxPageOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
                
-                <Image
-                  src="/images/about/taxes.jpg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto  max-w-full"
-                />
+                <img src="/images/about/taxes.jpg" alt="about-image" style={{objectFit: 'cover', width: '100%', height: '100%'}} />
               </div>
             </div>
           </div>

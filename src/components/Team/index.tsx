@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
 
@@ -20,7 +19,7 @@ const MeetTheTeam = () => {
           <div className="w-full md:w-1/3 lg:w-1/4 px-4 mb-12">
             <div className="text-center">
               <div className="mb-4">
-                <Image
+                <img
                    src="/images/about/dp.png"
                   alt="Team Member 1"
                   width={200}
@@ -38,7 +37,7 @@ const MeetTheTeam = () => {
           <div className="w-full md:w-1/3 lg:w-1/4 px-4 mb-12">
             <div className="text-center">
               <div className="mb-4">
-                <Image
+                <img
                   src="/images/about/Nadia(3).jpg"
                   alt="Team Member 2"
                   width={250}
@@ -56,7 +55,7 @@ const MeetTheTeam = () => {
           <div className="w-full md:w-1/3 lg:w-1/4 px-4 mb-12">
             <div className="text-center">
               <div className="mb-4">
-                <Image
+                <img
                   src="/images/about/Sunaina(1).jpeg"
                   alt="Team Member 3"
                   width={200}
