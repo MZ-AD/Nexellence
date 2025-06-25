@@ -18,7 +18,7 @@ const Hero = () => {
     Next is Excellence <br /><span className="font-bold">─ Nexellence ─</span>
   </h2>
   
-</div>
+</div> 
 
 
 
