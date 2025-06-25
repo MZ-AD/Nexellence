@@ -1,4 +1,3 @@
-import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
 
 const checkIcon = (
@@ -25,7 +24,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Craf for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                paragraph="The main 'thrust' is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
                 mb="44px"
               />
 
@@ -51,17 +50,21 @@ const AboutSectionOne = () => {
 
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
-                <Image
+                <img
                   src="/images/about/about-image.svg"
                   alt="about-image"
-                  fill
+                  width="500"
+                  height="480"
                   className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
+                  style={{ objectFit: "contain" }}
                 />
-                <Image
+                <img
                   src="/images/about/about-image-dark.svg"
                   alt="about-image"
-                  fill
+                  width="500"
+                  height="480"
                   className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
+                  style={{ objectFit: "contain" }}
                 />
               </div>
             </div>
