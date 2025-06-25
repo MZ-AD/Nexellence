@@ -15,7 +15,7 @@ const AboutPage = () => {
     <>
       <Breadcrumb
         pageName="Nexellence and Co"
-        description="expert accounting, taxation, and cutting-edge AI solutions to optimize your business financial and technological strategies"
+        description="Expert accounting, taxation, and cutting-edge AI solutions to optimize your business financial and technological strategies"
       />
       
       <AboutSectionTwo />

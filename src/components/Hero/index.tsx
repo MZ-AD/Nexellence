@@ -17,6 +17,7 @@ const Hero = () => {
   <h2 className="mb-10 mt-12 text-4xl font text-primary dark:text-white sm:text-5xl md:text-6xl text-center animate-fade-slide-up">
     Next is Excellence <br /><span className="font-bold">─ Nexellence ─</span>
   </h2>
+  
 </div>
 
 
